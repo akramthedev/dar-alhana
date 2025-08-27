@@ -88,14 +88,17 @@
 
 
     header {
-  background: linear-gradient(135deg, #2c4d36,#4d8a5f, #7fb685, #8aeb95);
-  color: white;
   text-align: center;
-  padding: 3rem 1.5rem;
+  padding: 1rem 0rem;
 }
 
 header h1 {
-  margin: 0;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #2c4d36, #4d8a5f, #7fb685, #8aeb95);
+  -webkit-background-clip: text; /* For Chrome, Safari */
+  -webkit-text-fill-color: transparent; /* For Chrome, Safari */
+  background-clip: text; /* For other browsers */
+  color: transparent;
   font-size: 1.67rem;
 }
 
@@ -156,9 +159,9 @@ span i{
     <p>
       Bienvenue à <strong>Dar Al Hana</strong>, une maison de location caractérisée par le 
       <strong>calme</strong>, la <strong>propreté</strong> et la <strong>sécurité</strong>. 
-      Située dans un quartier paisible, elle vous offre une magnifique 
-      <strong>vue sur un jardin verdoyant</strong> et un séjour loin des bruits et des nuisances de la ville.  
-      Un véritable havre de paix pour se reposer en famille ou entre amis.
+      Située dans un quartier paisible, elle vous offre une magnifique vue sur un jardin verdoyant et un séjour loin de bruits.
+      <br>
+      Un véritable havre de paix pour se reposer en famille.
     </p>
 
     <div class="location">
@@ -202,6 +205,7 @@ span i{
 
 </body>
 </html>
+
 
 
 
